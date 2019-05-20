@@ -34,13 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive designs provide optimal viewing experience for any screen size while adaptive only responds to screen sizes at a specific width. Responsive designs provide a smooth change in appearance while adaptive snaps its designs when it hits a certain width.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first designs, as the name sugges, are designed to acommodate mobile screens. In order to make it responsive to larger screens using media queries, you must use the 'min-width' attribute. A desktop first design is the opposite, in that it is initialy designed for viewing on a desktop, and in order to make it responsive to smaller screen sizes you must use 'max-with' with media queries.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using font-size 62.5% in the HTML tag, sets the default font size to 10px. This allows us to easily conert rem units using factors of 10. For example 1.6rems would equal 16px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a tool that we ue to streamlin writing CSS. Some of the features are:
+
+Allows us to write CSS in a fashion more similar to the way we write HTML. For example we can nest elements the way we would in HTML.
+
+We can also create variables and use them in places where we often repeat ourselves. For example colors and fonts. Or we can use mixins for repeating properties. For example we can creat a mixin to easily replace `display: flex, justify-content: center`.
+
+The processor then compiles the information you wrote and spits out the correct CSS syntax.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is being able to nest elements. This allows me to go through and assign styles to a page more quickly and more organized. 
+
+Figuring out when/where to efectively use mixins is giving me a little trouble at the moment.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
