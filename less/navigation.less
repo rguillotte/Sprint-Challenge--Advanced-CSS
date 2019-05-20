@@ -2,9 +2,8 @@
 
 .nav-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    .flex-layout(row, center, wrap, center);
+    
     background-color: @nav-bg;
     border-bottom: @nav-border;
 
@@ -16,8 +15,7 @@
     }
 
     nav {
-        display: flex;
-        justify-content: center;
+        .flex-layout(row, center, wrap, center);
         padding-bottom: 15px;
 
         a{

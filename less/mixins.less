@@ -8,3 +8,11 @@
     font-size: 2rem;
     font-family: 'Ubuntu';
 }
+
+.flex-layout( @dir: row, @j-c: center, @wrap: wrap, @align-itm: center){
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @j-c;
+    flex-wrap: @wrap;
+    align-items: @align-itm;
+}
