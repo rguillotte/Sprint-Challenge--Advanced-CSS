@@ -254,6 +254,11 @@ footer {
   font-size: 2rem;
   font-family: 'Ubuntu';
 }
+.home .walk .walk-text .btn button:hover {
+  cursor: pointer;
+  background-color: #F6F7F8;
+  color: #22283A;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
