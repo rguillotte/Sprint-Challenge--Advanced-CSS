@@ -166,6 +166,7 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   background-color: #F6F6F6;
+  border-bottom: #F1F1F1;
 }
 .nav-container h1 {
   width: 100%;
@@ -183,6 +184,10 @@ p {
   text-decoration: none;
   font-size: 1.6rem;
   color: #5E6164;
+}
+.header-img {
+  display: flex;
+  justify-content: center;
 }
 footer {
   color: #22283B;
@@ -235,6 +240,14 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  padding: 7px 15px 5px;
+  border-radius: 5px;
+  background-color: #22283A;
+  color: #F6F7F8;
+  font-size: 2rem;
+  font-family: 'Ubuntu';
 }
 .home .walk .walk-img {
   width: 46%;
