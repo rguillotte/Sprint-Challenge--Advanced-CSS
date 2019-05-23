@@ -1,1 +1,36 @@
 // Mixins Here
+
+.cstm-btn(@bgcolor: @btn-bg-color, @txtcolor: @porcelain) {
+    padding: 7px 15px 5px;
+    border-radius: 5px;
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+
+    &:hover {
+        cursor: pointer;
+        background-color: @porcelain;
+        color: @btn-bg-color;
+    }
+
+    @media @mobile {
+        width: 100%;
+        padding: 15px 0;
+
+    }
+}
+
+
+
+.flex-layout( @dir: row, @j-c: center, @wrap: wrap, @align-itm: center){
+    display: flex;
+    flex-direction: @dir;
+    justify-content: @j-c;
+    flex-wrap: @wrap;
+    align-items: @align-itm;
+}
+
+.mobile-width(){
+    width: 98%;
+}
